@@ -133,7 +133,7 @@ server <- function(input, output) {
   #show summary wordcloud
   output$Summary = renderImage({
     return(list(
-      src = "./Wordcloud_summary.png",
+      src = "./WordCloud_summary.png",
       contentType = "image/png",
       alt = "Ku"
     ))
